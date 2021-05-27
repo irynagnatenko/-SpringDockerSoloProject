@@ -18,7 +18,6 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @Service
 public class CarService {
-
     private final CarRepository repository;
 
     public List<Car> getCars() {
